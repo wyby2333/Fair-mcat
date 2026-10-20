@@ -189,7 +189,6 @@ def _adaptive_candidate_mc_rerank(
 def run_experiment(args, dataset_config, random_seed, device):
     RANDOM_SEED = random_seed
     # 数据加载
-    print("Fair-mcat")
     diffusion_description = args.diffusion_model
     if args.diffusion_model == 'IC':
         diffusion_description += f" (p={args.ic_prob})"

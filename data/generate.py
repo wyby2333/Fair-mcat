@@ -518,7 +518,5 @@ def main() -> None:
             raise
 
     print(f"[完成] {output_path}")
-
-
 if __name__ == "__main__":
     main()

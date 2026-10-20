@@ -216,10 +216,8 @@ def parse_experiment_args(device):
 
     if args.amp_dtype == "bfloat16":
         if device.type != "cuda":
-            print("[提示] 使用 FP32。")
             args.amp_dtype = "off"
         elif not torch.cuda.is_bf16_supported():
-            print("[提示] 使用 FP32。")
             args.amp_dtype = "off"
 
     random_seed = int(args.random_seed)

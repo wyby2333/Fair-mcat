@@ -30,6 +30,8 @@ python -m data.generate --dataset email --seed_num 10
 python gxltd.py --dataset email --seed_num 10
 ```
 
+控制台显示 Fair-mcat 的运行进度与结果，并隐藏 Degree、PageRank 基线行。
+
 命令参数：
 
 ```bash
