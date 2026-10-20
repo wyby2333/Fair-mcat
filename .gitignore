@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.IM
+*.IM.partial
+*.graph-features-v1.npz
+data/cache/
+results/
+outputs/
+*.pth
+*.pt
+*.log
+.idea/
+.vscode/
