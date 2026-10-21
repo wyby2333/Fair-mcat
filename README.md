@@ -1,6 +1,6 @@
 # Fair-mcat
 
-Fair-mcat 的精简源代码。程序采用单一路径完成数据生成、模型训练、候选搜索、候选筛选与最终评估。
+Fair-mcat 的源代码。
 
 ## 环境
 
@@ -18,7 +18,7 @@ python -m pip install -r requirements.txt
 
 ## 运行
 
-代码包仅附带 Email 原始图。先生成训练数据：
+以数据集 Email 为例，先生成训练数据：
 
 ```bash
 python -m data.generate --dataset email --seed_num 10
